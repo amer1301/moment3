@@ -1,0 +1,15 @@
+h1 {
+    display: flex;
+    margin: 2em auto;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 2em auto;
+border-radius: 5px;
+}

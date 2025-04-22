@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  catImage: string = "images/katt2.webp";
+  catSittingImage: String ="images/katt1.webp"
 }
