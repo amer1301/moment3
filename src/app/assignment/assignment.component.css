@@ -1,0 +1,10 @@
+.information-box {
+    background-color: #e9e3df;
+    align-self: center;
+    margin: 2em auto;
+    width: 50em;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }

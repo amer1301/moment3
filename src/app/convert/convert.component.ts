@@ -8,25 +8,27 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './convert.component.css'
 })
 export class ConvertComponent {
-  // Properties
-num1: number = 2;
-num2: number = 3;
-result: number = 0;
+  // Meter till feet
+  meters: number = 0;
+  feet: number = 0;
 
-// Methods
-add(): void {
-  this.result = this.num1 + this.num2;
+  convertToFeet() {
+    this.feet = this.meters * 3.28084;
+  }
+
+  convertToMeters() {
+    this.meters = this.feet / 3.28084;
+  }
+
+// Celcius till Fahrenheit
+celsius: number = 0;
+fahrenheit: number = 0;
+
+convertToFahrenheit() {
+  this.fahrenheit = (this.celsius * 9/5) + 32;
 }
 
-subtract(): void {
-  this.result = this.num1 - this.num2;
-}
-
-multiply(): void {
-  this.result = this.num1 * this.num2;
-}
-
-divide(): void {
-  this.result = this.num1 / this.num2;
+convertToCelsius() {
+  this.celsius = (this.fahrenheit - 32) * 5/9;
 }
 }

@@ -48,24 +48,27 @@
   }
 
   img {
-    width: 30%;
     margin-top: 5em;
   }
 
   .icons {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
-  .lying {
-    align-items: flex-start;
-    display: block;
-    margin-top: 5em;
+  #cat-lying {
+      width: 45%;
+      align-items: flex-start;
+      display: block;
+      margin-bottom: 0;
+      margin-top: 12.5em;
   }
 
-  .sitting {
+  #cat-sitting {
+    width: 25%;
     align-items: flex-end;
     display: block;
+    padding-left: 35em;
+    margin-right: 1em;
     margin-top: 2.5em;
   }
