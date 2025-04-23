@@ -13,3 +13,20 @@
     font-size: 1.2em;
     line-height: 2em;
   }
+
+  @media (max-width: 766px) {
+    
+  .information-box p {
+    font-size: 1em;
+  }
+
+  .information-box {
+    width: 30em;
+  }
+
+  @media (max-width: 545px) {
+    .information-box {
+      width: 20em;
+    }
+  }
+  }

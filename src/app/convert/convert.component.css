@@ -42,3 +42,20 @@
     font-size: 1.2em;
     font-weight: bold;
   }
+
+  
+  @media (max-width: 766px) {
+    .converter-box {
+      width: 30em;
+    }
+  }
+      
+  @media (max-width: 545px) {
+    .converter-box {
+      width: 20em;
+    }
+
+    label {
+      font-size: 1em;
+    }
+  }

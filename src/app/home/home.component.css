@@ -12,3 +12,9 @@ border-radius: 5px;
     justify-content: center;
     margin-top: 0;
   }
+
+  @media (max-width: 766px) {
+    img {
+        width: 75%;
+  }
+}
